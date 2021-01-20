@@ -13,7 +13,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class TestHdfs extends BaseTests {
-
     @Test
     public void testMakeDir() throws IOException {
         fileSystem.mkdirs(new Path("/folder1"));
