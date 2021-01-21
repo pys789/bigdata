@@ -19,6 +19,5 @@ public class BaseTests {
         Configuration conf = new Configuration();
         conf.set("fs.defaultFS", "192.168.112.111:9000");
         fileSystem = FileSystem.get(conf);
-
     }
 }
