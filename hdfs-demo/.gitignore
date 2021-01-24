@@ -1,7 +1,0 @@
-.mvn
-/target/
-/bin/
-.idea
-.settings
-*.iml
-/out/

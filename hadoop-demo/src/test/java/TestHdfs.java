@@ -1,21 +1,32 @@
-package cn.pys;
-
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FSDataOutputStream;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.hdfs.DistributedFileSystem;
 import org.apache.hadoop.hdfs.protocol.DatanodeInfo;
 import org.apache.hadoop.io.IOUtils;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class TestHdfs extends BaseTests {
+public class TestHdfs {
+
+    private FileSystem fileSystem;
+
+    @Before
+    public void init() throws IOException {
+        Configuration conf = new Configuration();
+        conf.set("fs.defaultFS", "192.168.112.111:9000");
+        fileSystem = FileSystem.get(conf);
+    }
+
     @Test
     public void testMakeDir() throws IOException {
-        fileSystem.mkdirs(new Path("/folder1"));
+        fileSystem.mkdirs(new Path("/folder4"));
         fileSystem.close();
     }
 
