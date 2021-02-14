@@ -8,7 +8,7 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <dependencySets>
         <dependencySet>
-            <unpack>true</unpack>
+            <unpack>false</unpack>
             <scope>runtime</scope>
         </dependencySet>
     </dependencySets>
