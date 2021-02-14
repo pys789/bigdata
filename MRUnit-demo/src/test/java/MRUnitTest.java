@@ -1,5 +1,5 @@
-import cn.pys.WordCountMapper;
-import cn.pys.WordCountReducer;
+import cn.pys.wordcount.WordCountMapper;
+import cn.pys.wordcount.WordCountReducer;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;

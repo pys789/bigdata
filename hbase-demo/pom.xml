@@ -30,7 +30,7 @@
                     <archive>
                         <manifest>
                             <!-- <addClasspath>true</addClasspath> -->
-                            <mainClass>cn.pys.WordCountMain</mainClass>
+                            <mainClass>WordCountMain</mainClass>
                         </manifest>
                     </archive>
                     <descriptors>

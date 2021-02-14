@@ -1,4 +1,4 @@
-package cn.pys;
+package cn.pys.wordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
