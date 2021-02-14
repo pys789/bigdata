@@ -1,4 +1,4 @@
-package cn.pys.wordcount;
+package cn.pys;
 
 import org.apache.hadoop.hbase.client.Result;
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable;

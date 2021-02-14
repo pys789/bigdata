@@ -1,4 +1,4 @@
-package cn.pys.wordcount.emp;
+package cn.pys.emp;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.mapreduce.Partitioner;

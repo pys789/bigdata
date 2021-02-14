@@ -1,4 +1,4 @@
-package cn.pys.wordcount.emp;
+package cn.pys.emp;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;

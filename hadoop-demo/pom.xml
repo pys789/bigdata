@@ -55,7 +55,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>cn.pys.wordcount.emp.EmpMain</mainClass>
+                            <mainClass>cn.pys.emp.EmpMain</mainClass>
                         </manifest>
                     </archive>
                     <descriptors>
